@@ -49,7 +49,7 @@ d1 $ slow 4 $ s "baa2" <| n (run 7) -- rather simlar to the above? same?
 d1 $ slow 2 $ s "bass" <| n (run 4) -- four short bass sounds, nasty abrupt release
 d1 $ s "bass0" <| n (run 3) -- one highly distorted bass drum, plus?!?!?
 d1 $ slow 8 $ s "bass1" <| n (run 30) -- thirty synth bass sounds, some long, f or c
-d1 $ s "bass2" <| n "[ 0 .. 4 ]" -- five aggressive tonal kicks
+d1 $ s "bass2" <| n "[0 .. 4]" -- five aggressive tonal kicks
 d1 $ slow 4 $ s "bass3!44" # n (run 11) -- eleven bass sounds, odd mix of pitches
 d1 $ slow 4 $ s "bassdm" <| n (run 24) -- 24 rather similar acoustic-ish kicks
 d1 $ s "bassfoo" <| n (run 3) -- same bank as bass0
